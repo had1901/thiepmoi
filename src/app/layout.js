@@ -44,10 +44,10 @@ const fontWedding= localFont({
 
 export const metadata = {
   title: "Thiệp mời đám cưới",
-  description: "Lời mời đặc biệt đến dự lễ thành hôn của chúng tôi",
+  description: "Lời mời đặc biệt đến dự lễ thành hôn Hoàng Ngọc Anh",
   openGraph: {
     title: "Thiệp mời đám cưới",
-    description: "Lời mời đặc biệt đến dự lễ thành hôn của chúng tôi",
+    description: "Lời mời đặc biệt đến dự lễ thành hôn Hoàng Ngọc Anh",
     url: "https://thiepmoi-pearl.vercel.app/",
     siteName: "Wedding Invitation",
     images: [
@@ -66,6 +66,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="Thiệp mời đám cưới" />
+        <meta property="og:description" content="Lời mời đặc biệt đến dự lễ thành hôn Hoàng Ngọc Anh" />
+        <meta property="og:image" content="https://thiep-moi-pearl.vercel.app/img/thumbnail.png" />
+        <meta property="og:url" content="https://thiep-moi-pearl.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </head>
       <body
         className={`${myFont.className} ${fontName.variable} ${fontTitle.variable} ${fontWedding.variable} antialiased h-[5000px] bg-[#fff9ed]`}
       >

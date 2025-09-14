@@ -190,9 +190,6 @@ export default function Home() {
 
           <div className="w-full mt-5">
             <motion.img
-              initial={{ opacity: 0, scale: 0 }}   
-              whileInView={{ opacity: 1, scale: 1 }}     
-              transition={{ duration: 0.9, ease: "easeOut" }}
               src="/svg/arrow.png"
               alt="Main img"
               className="w-[14%] h-auto object-cover bg-transparent mx-auto"
@@ -235,8 +232,8 @@ export default function Home() {
 
           <div className="relative">
             <motion.img
-              initial={{ opacity: 0, x: 60 }}   
-              whileInView={{ opacity: 1, x: 0 }}  
+              initial={{ opacity: 0, y: 60 }}   
+              whileInView={{ opacity: 1, y: 0 }}  
               transition={{ duration: 0.9, ease: "linear" }}
               src="/img/ai2.png"
               alt="Main img"
@@ -262,9 +259,9 @@ export default function Home() {
 
           <div className="relative mt-3">
             <motion.img
-              initial={{ opacity: 0, y: 60 }}   
+              initial={{ opacity: 0, y: 50 }}   
               whileInView={{ opacity: 1, y: 0 }}  
-              transition={{ duration: 1, delay: 0.4, ease: "linear" }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "linear" }}
               src="/img/anh1.jpg"
               alt="Main img"
               className="w-full h-auto object-contain bg-transparent rounded-2xl"
