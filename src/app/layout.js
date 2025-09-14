@@ -40,7 +40,7 @@ export const metadata = {
     siteName: "Wedding Invitation",
     images: [
       {
-        url: "https://thiepmoi-pearl.vercel.app/img/humbnail.png", // ảnh preview
+        url: "https://thiepmoi-pearl.vercel.app/img/thumbnail.png", // ảnh preview
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Thumbnail",
