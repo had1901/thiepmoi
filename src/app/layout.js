@@ -69,8 +69,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta property="og:title" content="Thiệp mời đám cưới" />
         <meta property="og:description" content="Lời mời đặc biệt đến dự lễ thành hôn Hoàng Ngọc Anh" />
-        <meta property="og:image" content="https://thiep-moi-pearl.vercel.app/img/thumbnail.png" />
-        <meta property="og:url" content="https://thiep-moi-pearl.vercel.app/" />
+        <meta property="og:image" content="https://thiepmoi-pearl.vercel.app/img/thumbnail.png" />
+        <meta property="og:url" content="https://thiepmoi-pearl.vercel.app/" />
         <meta property="og:type" content="website" />
       </head>
       <body
