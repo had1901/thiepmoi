@@ -36,11 +36,11 @@ export const metadata = {
   openGraph: {
     title: "Thiệp mời đám cưới",
     description: "Lời mời đặc biệt đến dự lễ thành hôn của chúng tôi",
-    url: "https://your-domain.com",
+    url: "https://thiepmoi-pearl.vercel.app/",
     siteName: "Wedding Invitation",
     images: [
       {
-        url: "https://your-domain.com/img/heart.png", // ảnh preview
+        url: "https://thiepmoi-pearl.vercel.app/img/humbnail.png", // ảnh preview
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Thumbnail",

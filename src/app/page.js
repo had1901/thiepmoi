@@ -17,18 +17,21 @@ export default function Home() {
         </div>
         <ol className="flex items-center justify-evenly text-xs px-2 pt-4">
           {/* <li>Happy</li> */}
-          <img
+          <motion.img
+          initial={{ opacity: 0, x: -100 }}   // trạng thái ban đầu
+          animate={{ opacity: 1, x: 0 }}      // trạng thái khi animating
+          transition={{ duration: 0.8 }}      // thời gian
             src="/svg/cake.png"
             alt="Main img"
             className="w-[10%] h-auto object-cover bg-transparent mx-auto"
           />
-          <img
+          <motion.img
             src="/svg/heart-line.png"
             alt="Main img"
             className="w-[10%] -scale-x-100 h-auto object-cover bg-transparent mx-auto"
           />
           {/* <li>Wedding</li> */}
-          <img
+          <motion.img
             src="/svg/cake.png"
             alt="Main img"
             className="w-[10%] h-auto object-cover bg-transparent mx-auto"
