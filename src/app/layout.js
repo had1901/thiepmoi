@@ -30,6 +30,18 @@ const fontName = localFont({
   subsets: ["latin"],
 })
 
+const fontTitle = localFont({
+  variable: "--font-title",
+  src: '../../public/font/title.ttf',
+  subsets: ["latin"],
+})
+
+const fontWedding= localFont({
+  variable: "--font-wedding",
+  src: '../../public/font/wedding.ttf',
+  subsets: ["latin"],
+})
+
 export const metadata = {
   title: "Thiệp mời đám cưới",
   description: "Lời mời đặc biệt đến dự lễ thành hôn của chúng tôi",
@@ -55,7 +67,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${myFont.className} ${fontName.variable} antialiased h-[5000px] bg-[#fff9ed]`}
+        className={`${myFont.className} ${fontName.variable} ${fontTitle.variable} ${fontWedding.variable} antialiased h-[5000px] bg-[#fff9ed]`}
       >
         {children}
       </body>
